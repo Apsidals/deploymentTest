@@ -9,4 +9,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["python", "-c", "import sys; sys.exit(1)"]
+CMD ["python", "app.py"]
